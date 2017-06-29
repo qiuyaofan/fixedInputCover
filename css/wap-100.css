@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/*
+ 基础样式
+ */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+code,
+em,
+img,
+q,
+small,
+strong,
+dd,
+dl,
+dt,
+li,
+ol,
+ul,
+fieldset,
+form,
+label,
+table,
+tbody,
+tr,
+th,
+td,
+input {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+ul,
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+img {
+  border: none; }
+
+a:focus,
+input:focus,
+button:focus {
+  outline: none; }
+
+window,
+html,
+body {
+  overflow-x: hidden !important;
+  -webkit-overflow-scrolling: touch !important;
+  overflow: scroll !important; }
+
+html {
+  -webkit-tap-highlight-color: transparent; }
+
+body {
+  font-family: "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "黑体", Arial, sans-serif;
+  font-size: 0.3rem;
+  line-height: 1.42857;
+  color: #333;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  transition: all .1s ease; }
+
+html {
+  font-size: 312.5%;
+  line-height: 1;
+  height: 100%; }
+  @media screen and (max-width: 359px) and (orientation: portrait) {
+    html {
+      font-size: 266.67%; } }
+  @media screen and (min-width: 360px) and (max-width: 374px) and (orientation: portrait) {
+    html {
+      font-size: 300%; } }
+  @media screen and (min-width: 384px) and (max-width: 399px) and (orientation: portrait) {
+    html {
+      font-size: 320%; } }
+  @media screen and (min-width: 400px) and (max-width: 413px) and (orientation: portrait) {
+    html {
+      font-size: 333.33%; } }
+  @media screen and (min-width: 414px) and (max-width: 431px) and (orientation: portrait) {
+    html {
+      font-size: 345%; } }
+  @media screen and (min-width: 432px) and (max-width: 479px) and (orientation: portrait) {
+    html {
+      font-size: 360%; } }
+  @media screen and (min-width: 480px) and (max-width: 639px) and (orientation: portrait) {
+    html {
+      font-size: 400%; } }
+  @media screen and (min-width: 640px) and (orientation: portrait) {
+    html {
+      font-size: 533.33%; } }
+
+.form-container {
+  padding: .6rem; }
+
+.form-textarea {
+  width: 100%; }
+
+body,
+html,
+.form-container,
+form {
+  height: 100%;
+  overflow: hidden; }
+
+form {
+  overflow: auto; }
+
+.g-fixedForm--main {
+  height: 100%; }
